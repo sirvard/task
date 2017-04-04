@@ -1,0 +1,301 @@
+@font-face{
+	font-family: Roboto-light;
+	src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face{
+	font-family: Roboto_thin;
+	src: url(../fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+	font-family: Roboto_medium;
+	src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face{
+	font-family: Roboto_bold;
+	src: url(../fonts/Roboto-Bold.ttf);
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.navbar-default {
+	background-color: #122e46;
+}
+
+.logo {
+	margin-left: 40px;
+	width: 10%;
+	height: auto;
+	display: inline-block;
+	padding: 7px 15px;
+}
+
+
+.navigation-right {
+	margin: 25px 35px 0 0;
+	font-size: 20px;
+	color: #fafafa;
+}
+
+.nav>li>a {
+	text-decoration: none;
+	color: #fafafa;
+	font-weight: normal;
+	font-family: 'Roboto_thin';
+}
+
+.open {
+	background-color: transparent;
+}
+
+.nav>li>a>img {
+	margin-right: 5px;
+}
+
+.nav>li>a:hover {
+	background-color: transparent !important;
+}
+
+.nav>li>a:active {
+	background-color: transparent !important;
+}
+
+.dropdown-menu>li>a {
+	color: #122e46;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: 'Roboto_thin';
+}
+
+
+
+section {
+	margin-top: 77px;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.sidebar {
+	padding: 0;
+}
+
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin:0;
+	background-color: #d6d6d6;
+
+}
+
+.sidebar ul li {
+	border: 1px solid;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+	cursor: pointer;
+	border-top: none;
+	font-family: 'Roboto-light';
+	font-size: 12px;
+}
+
+.sidebar ul li:first-child {
+	padding: 30px 0;
+	font-size: 17px;
+}
+
+.profile_pic {	
+	width: 92px;
+	height: 92px;
+	margin: 5px auto;
+	border: 1px solid #4286D4;
+	border-radius: 50%;
+
+}
+
+.profile_pic img {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+}
+
+.profile_data {
+	margin: 5px;
+}
+
+.row{
+	margin: 0px !important;
+}
+
+
+.col_content {
+	width: 100%;
+	margin-top: 20px;
+	border-bottom: 1px solid;
+}
+
+.col_content .row .col-sm-4:first-child{
+	padding-left: 0;
+}
+
+.content-header {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: 'Roboto_medium';
+	color: #6f6f6f;
+	margin:  15px 0;
+}
+
+.items {
+	height: 190px;
+	border: 1px solid;
+	background-color: #122e46;
+	margin: 5px 0;
+	text-align: center;
+	line-height: 195px;
+	font-size: 15px;
+	color: #fff;
+	font-weight: 800;
+}
+
+.col_content>a {
+	float: right;
+	font-weight: 800;
+	margin: 5px 35px 5px 35px;
+	text-transform: capitalize;
+}
+
+.search_content {
+	margin: 35px 0;
+}
+
+.search {
+	width: 80%;
+	height: 40px;
+	border: 1px solid #434854;
+	margin-left: -15px;
+	padding: 15px;
+}
+
+.btn-search {
+	height: 40px;
+	width: 19%;
+	font-size: 28px;
+}
+
+.btn-add {
+	width: 100%;
+	height: 40px;
+	text-transform: uppercase;
+	font-family: 'Roboto_bold';
+}
+
+.list_container {
+	margin: 10px 0;
+}
+
+
+.list-head-content {
+	background-color: #122E46;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.list-head-content span {
+	color: #fff;
+	font-weight: 800;
+	font-size: 16px;
+}
+
+.dr-down {
+	float: right;
+}
+
+.list-content {
+	border: 1px solid #d3d3d3;
+	padding: 15px 5px;
+	overflow: hidden;
+}
+
+.list-content img {
+	float: left;
+}
+
+.list {
+	width: 60%;
+	float: left;
+}
+
+.list-post {
+	color: #2979D4;
+	font-size: 14px;
+	font-weight: 700;
+	margin: 0px 15px;
+	font-family: 'Roboto_medium';
+}
+
+.list-time {
+	font-size: 11px;
+	color: #333;
+	font-family: 'Roboto_medium';
+	margin: 0px 15px;
+}
+
+.settings {
+	float: right;
+	font-size: 28px;
+}
+
+.footer-navigation {
+	overflow: hidden;
+	background-color: #fff;
+	max-height: 30px;
+	left: 16.7%;
+}
+
+.footer-navigation p {
+	width: 30%;
+	float: left;
+	font-family: 'Roboto',sans-serif;
+	font-weight: 700;
+	margin: 0 40px;
+}
+
+.footer-navigation ul {
+	width: 35%;
+	list-style: none;
+	overflow: hidden;
+	float: left;
+	margin: 0 40px;
+}
+
+.footer-navigation ul li {
+	float: left;
+	margin: 0 2%;
+}
+
+.footer-navigation li a {
+	color: #848484;
+	font-weight: 700;
+	font-family: 'Roboto',sans-serif;
+}
+
+.footer-navigation li a:hover{
+	text-decoration: underline;
+	color: #328fdd;
+}
+
+@media screen and (max-width: 769px) {
+    .footer-navigation {
+        left: 0%;
+    }
+
+    .col_content .row .col-sm-4:first-child{
+	padding-left: 15px;
+}
+}
